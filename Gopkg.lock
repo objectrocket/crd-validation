@@ -141,13 +141,13 @@
   revision = "dc0dd48d5a5cae9f8736bb0643cfe6052e450f1b"
 
 [[projects]]
-  branch = "master"
   name = "k8s.io/apiextensions-apiserver"
   packages = [
     "pkg/apis/apiextensions",
     "pkg/apis/apiextensions/v1beta1"
   ]
-  revision = "ddd9f73609e9a03a76dc8566ba6296db0cda63d3"
+  revision = "98ecf7bbd60f9f11a72000e4f05203f542136219"
+  version = "kubernetes-1.9.0"
 
 [[projects]]
   branch = "master"
@@ -186,6 +186,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9af3a0bdc9fb071b8a24e4c2320f53398bf7db3bd96b1933811a214e5be8ca3d"
+  inputs-digest = "9bb329b3596fa5159e0b8fa4cc328c3224ddf78c25fcb04245b87deed3c8ee15"
   solver-name = "gps-cdcl"
   solver-version = 1
