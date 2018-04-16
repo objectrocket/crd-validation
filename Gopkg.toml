@@ -27,6 +27,7 @@
 [[constraint]]
   branch = "master"
   name = "k8s.io/apiextensions-apiserver"
+  version = "kubernetes-1.10.0"
 
 [[constraint]]
   branch = "master"

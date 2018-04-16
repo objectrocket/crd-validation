@@ -19,7 +19,7 @@ format:
 
 openapi-gen:
 	go get -u -v -d k8s.io/code-generator/cmd/openapi-gen
-	cd $(GOPATH)/src/k8s.io/code-generator; git checkout release-1.8
+	cd $(GOPATH)/src/k8s.io/code-generator; git checkout release-1.10
 	go install k8s.io/code-generator/cmd/openapi-gen
 
 
