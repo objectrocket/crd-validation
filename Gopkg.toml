@@ -25,7 +25,6 @@
   name = "github.com/go-openapi/spec"
 
 [[constraint]]
-  branch = "master"
   name = "k8s.io/apiextensions-apiserver"
   version = "kubernetes-1.10.0"
 
